@@ -1,26 +1,22 @@
-<h1>Sign up</h1>
-<p>This will be a signup page for new users.</p>
-
+<img id="upIn_pic" src="/assets/signUpIn.jpg" style= "width:1125px;">
+<h1 id="up_h1">Start your journey!</h1>
 
 <%= form_for(@user, url: signup_path) do |f| %>
-<!--May need this-->
-<div>
-      <%= f.label :name %>
-      <%= f.text_field :name %>
+<div id="upIn_div">
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :email %>
+  <%= f.email_field :email %>
+
+  <%= f.label :password %>
+  <%= f.password_field :password %>
+
+  <%= f.label :password_confirmation, "Confirmation" %>
+  <%= f.password_field :password_confirmation %>
+
+  <%= f.submit "Become Dragonborn", class: "btn btn-primary" %>
+<% end %>
+
+  <p>Already a member? <%= link_to "CLICK HERE!", login_path, class: "btn btn-lg btn-primary" %></p>
 </div>
-<div>
-      <%= f.label :email %>
-      <%= f.email_field :email %>
-</div>
-<div>
-      <%= f.label :password %>
-      <%= f.password_field :password %>
-</div>
-<div>
-      <%= f.label :password_confirmation, "Confirmation" %>
-      <%= f.password_field :password_confirmation %>
-</div>
-<div>
-      <%= f.submit "Create my account", class: "btn btn-primary" %>
-      </div>
-    <% end %>

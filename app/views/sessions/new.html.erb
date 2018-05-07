@@ -1,17 +1,17 @@
-<h1>Log in</h1>
+<img id="upIn_pic" src="/assets/signUpIn.jpg" style= "width:1125px;">
+<h1 id="in_h1">Continue your journey!</h1>
 
 <%= form_for(:session, url: login_path) do |f| %>
-<div>
-      <%= f.label :email %>
-      <%= f.email_field :email, class: 'form-control' %>
-</div>
-  <div>
-      <%= f.label :password %>
-      <%= f.password_field :password, class: 'form-control' %>
-</div>
-  <div>
-      <%= f.submit "Log in", class: "btn btn-primary" %>
-    </div>
-    <% end %>
+<div id="upIn_div">
+  <%= f.label :email %>
+  <%= f.email_field :email, class: 'form-control' %>
 
-<p>New user? <%= link_to "Sign up now!", signup_path %></p>
+  <%= f.label :password %>
+  <%= f.password_field :password, class: 'form-control' %>
+
+  <%= f.submit "Finish the fight", class: "btn btn-primary" %>
+
+<% end %>
+
+  <p>Don't have an account? <%= link_to "CLICK HERE!", signup_path %></p>
+</div>

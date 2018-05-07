@@ -59,6 +59,17 @@
   text-shadow: 2px 2px 0px #131618;
   color: #E7F1F7;
 }
+#new_div
+{
+  width: 200px;
+  position: absolute;
+  left: 575px;
+  top: 300px;
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px #131618;
+  color: #98BED0;
+}
 #races_div
 {
   background-color: red;
@@ -100,6 +111,17 @@
   color: #98BED0;
   text-shadow: 0px 0px 1px #131618;
 }
+#upIn_div
+{
+  position: absolute;
+  left: 575px;
+  top: 200px;
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+  color: #E7F1F7;
+  text-shadow: 2px 2px 0px #131618;
+}
 /*End Divs*/
 
 /*Start Headers*/
@@ -110,6 +132,15 @@
   left: 703px;
   font-size: 30px;
 }
+#in_h1
+{
+  position: absolute;
+  top: 75px;
+  left: 462.655px;
+  color: #E7F1F7;
+  text-shadow: 2px 2px 0px #131618;
+  font-size: 42px;
+}
 #main_h1
 {
   position: absolute;
@@ -117,12 +148,30 @@
   left: 50px;
   font-size: 30px;
 }
+#new_h1
+{
+  position: absolute;
+  font-size: 60px;
+  left: 535.805px;
+  top: 75px;
+  color: #98BED0;
+  text-shadow: 1px 1px 1px #131618;
+}
 #skyrim_h1
 {
   position: absolute;
   font-size: 50px;
   left: 459.71px;
   top: 150px;
+}
+#up_h1
+{
+  position: absolute;
+  top: 75px;
+  left: 505.025px;
+  color: #E7F1F7;
+  text-shadow: 2px 2px 0px #131618;
+  font-size: 42px;
 }
 /*End Headers*/
 
@@ -158,6 +207,12 @@
 /*End Texts*/
 
 /*Start Images*/
+#article_pic
+{
+  box-shadow: 0px 0px 20px 2px black;
+  position: absolute;
+  left: 112.5px;
+}
 #dragonborn_pic
 {
   position: absolute;
@@ -173,6 +228,11 @@
 {
   position: absolute;
   opacity: .75px;
+}
+#upIn_pic
+{
+  position: absolute;
+  left: 112.5px;
 }
 .races
 {
@@ -255,6 +315,9 @@ p a:hover,a:active
 textarea
 {
   resize: none;
+}
+#email_TA
+{
   position: absolute;
   top: 113px;
   left: 703px;
