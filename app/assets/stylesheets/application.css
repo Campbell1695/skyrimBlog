@@ -13,3 +13,260 @@
  *= require_tree .
  *= require_self
  */
+
+/*Start Welcome Styling*/
+
+/*Start Divs*/
+#dbText_div
+{
+  background-color: #E7F1F7;
+  width: 475px;
+  position: absolute;
+  top: 13.5px;
+  left: 625px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #7E868D;
+  box-shadow: 0px 0px 10px 5px #131618;
+}
+#dragonborn_div
+{
+  background-color: #98BED0;
+  height: 325px;
+  width: 1125px;
+  position: absolute;
+  top: 658px;
+  left: 112.5px;
+}
+#footer_div
+{
+  background-color: #131618;
+  height: 75px;
+  width: 1125px;
+  position: absolute;
+  top: 1608px;
+  left: 112.5px;
+  text-shadow: 1px 1px 0px #E7F1F7;
+  color: #98BED0;
+  text-align: center;
+  font-size: 24px;
+}
+#main_div
+{
+  height: 525px;
+  width: 1125px;
+  position: absolute;
+  left: 112.5px;
+  text-shadow: 2px 2px 0px #131618;
+  color: #E7F1F7;
+}
+#races_div
+{
+  background-color: red;
+  height: 450px;
+  width: 1125px;
+  position: absolute;
+  top: 983px;
+  left: 112.5px;
+}
+#secondary_div
+{
+  background-color: #7E868D;
+  height: 125px;
+  width: 1125px;
+  position: absolute;
+  top: 533px;
+  left: 112.5px;
+  color: #E7F1F7;
+  text-shadow: 1px 1px 1px #131618;
+  text-align: center;
+  font-size: 23px;
+}
+#sText_div
+{
+  width: 225px;
+  position: absolute;
+  left: 175px;
+  font-size: 28px;
+  text-align: center;
+}
+#subscribe_div
+{
+  background-color: #7E868D;
+  height: 175px;
+  width: 1125px;
+  position: absolute;
+  top: 1433px;
+  left: 112.5px;
+  color: #98BED0;
+  text-shadow: 0px 0px 1px #131618;
+}
+/*End Divs*/
+
+/*Start Headers*/
+#email_h3
+{
+  position: absolute;
+  top: 50px;
+  left: 703px;
+  font-size: 30px;
+}
+#main_h1
+{
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  font-size: 30px;
+}
+#skyrim_h1
+{
+  position: absolute;
+  font-size: 50px;
+  left: 459.71px;
+  top: 150px;
+}
+/*End Headers*/
+
+/*Start Texts*/
+#blog_p
+{
+  left: 968px;
+}
+#contact_p
+{
+  left: 1026px;
+}
+#home_p
+{
+  left: 792px;
+}
+#mods_p
+{
+  left: 853px;
+}
+#shop_p
+{
+  left: 913px;
+}
+#login_p
+{
+  position: absolute;
+  top: 285px;
+  left: 476.385px;
+  font-size: 10px;
+  text-shadow: 1px 1px 1px #131618;
+}
+/*End Texts*/
+
+/*Start Images*/
+#dragonborn_pic
+{
+  position: absolute;
+  top: 20px;
+  left: 175px;
+  box-shadow: 0px 0px 10px 5px #131618;
+}
+#main_pic
+{
+  position: absolute;
+}
+#race_pic
+{
+  position: absolute;
+  opacity: .75px;
+}
+.races
+{
+  position: absolute;
+  top: 62.5px;
+  left: 275px;
+}
+/*End Images*/
+
+/*Start Style*/
+#main_style
+{
+  background-color: #E7F1F7;
+  box-shadow: 0px 0px 15px 1px #131618;
+  height: 5px;
+  width: 165px;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+/*End Style*/
+
+/*Start Navs*/
+nav p
+{
+  position: absolute;
+  float: left;
+  top: 32px;
+}
+/*End Navs*/
+
+/*Start Links*/
+a
+{
+  color: #E7F1F7;
+  text-shadow: 1px 1px 1px #131618;
+  text-decoration: none;
+}
+h2 a:hover,a:active
+{
+  color: #98BED0;
+}
+p a:hover,a:active
+{
+  color: #98BED0;
+}
+#connect_button a:link,a:visited
+{
+  background-color: #98BED0;
+  color: #E7F1F7;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+#connect_button a:hover,a:active
+{
+  background-color: #7E868D;
+  color: #98BED0;
+}
+/*End Links*/
+
+/*Start Buttons*/
+#connect_button
+{
+  position: absolute;
+  top: 230px;
+  left: 510.275px;
+  font-size: 20px;
+}
+#subscribe_button
+{
+  position: absolute;
+  top: 113px;
+  left: 905px;
+}
+/*End Buttons*/
+
+/*Start TextArea*/
+textarea
+{
+  resize: none;
+  position: absolute;
+  top: 113px;
+  left: 703px;
+}
+/*End TextArea*/
+/*End Welcome Styling*/
+
+/**/
+/**/
+
+/**/
+/**/
+
+/**/
+/**/
