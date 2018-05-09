@@ -17,11 +17,14 @@
 /*Start Welcome Styling*/
 
 /*Start Divs*/
+div
+{
+  position: absolute;
+}
 #dbText_div
 {
   background-color: #E7F1F7;
   width: 475px;
-  position: absolute;
   top: 13.5px;
   left: 625px;
   text-align: center;
@@ -33,7 +36,6 @@
   background-color: #98BED0;
   height: 325px;
   width: 1125px;
-  position: absolute;
   top: 658px;
   left: 112.5px;
 }
@@ -42,7 +44,6 @@
   background-color: #131618;
   height: 75px;
   width: 1125px;
-  position: absolute;
   top: 1608px;
   left: 112.5px;
   text-shadow: 1px 1px 0px #E7F1F7;
@@ -54,7 +55,6 @@
 {
   height: 525px;
   width: 1125px;
-  position: absolute;
   left: 112.5px;
   text-shadow: 2px 2px 0px #131618;
   color: #E7F1F7;
@@ -62,7 +62,6 @@
 #new_div
 {
   width: 200px;
-  position: absolute;
   left: 575px;
   top: 300px;
   text-align: center;
@@ -75,7 +74,6 @@
   background-color: red;
   height: 450px;
   width: 1125px;
-  position: absolute;
   top: 983px;
   left: 112.5px;
 }
@@ -84,7 +82,6 @@
   background-color: #7E868D;
   height: 125px;
   width: 1125px;
-  position: absolute;
   top: 533px;
   left: 112.5px;
   color: #E7F1F7;
@@ -95,7 +92,6 @@
 #sText_div
 {
   width: 225px;
-  position: absolute;
   left: 175px;
   font-size: 28px;
   text-align: center;
@@ -105,7 +101,6 @@
   background-color: #7E868D;
   height: 175px;
   width: 1125px;
-  position: absolute;
   top: 1433px;
   left: 112.5px;
   color: #98BED0;
@@ -113,7 +108,6 @@
 }
 #upIn_div
 {
-  position: absolute;
   left: 575px;
   top: 200px;
   width: 200px;
@@ -240,6 +234,46 @@
   top: 62.5px;
   left: 275px;
 }
+#altmer
+{
+  visibility: hidden;
+}
+#argonian
+{
+  visibility: hidden;
+}
+#bosmer
+{
+  visibility: hidden;
+}
+#breton
+{
+  visibility: hidden;
+}
+#dunmer
+{
+  visibility: hidden;
+}
+#imperial
+{
+  visibility: hidden;
+}
+#khajiit
+{
+  visibility: hidden;
+}
+#nord
+{
+  visibility: hidden;
+}
+#orsimer
+{
+  visibility: hidden;
+}
+#redguard
+{
+  visibility: hidden;
+}
 /*End Images*/
 
 /*Start Style*/
@@ -296,6 +330,61 @@ p a:hover,a:active
 /*End Links*/
 
 /*Start Buttons*/
+#races_div button
+{
+  border-radius: 30px;
+  position: absolute;
+}
+#altmr_button
+{
+  top: 25px;
+  left: 25px;
+}
+#argn_button
+{
+  top: 25px;
+  left: 200px;
+}
+#bsmr_button
+{
+  top: 25px;
+  left: 460px;
+}
+#brtn_button
+{
+  top: 25px;
+  left: 825px;
+}
+#dnmr_button
+{
+  top: 25px;
+  left: 1025px;
+}
+#imprl_button
+{
+  top: 425px;
+  left: 25px;
+}
+#khjt_button
+{
+  top: 425px;
+  left: 275px;
+}
+#nrd_button
+{
+  top: 425px;
+  left: 550px;
+}
+#orsmr_button
+{
+  top: 425px;
+  left: 700px;
+}
+#rdgrd_button
+{
+  top: 425px;
+  left: 1050px;
+}
 #connect_button
 {
   position: absolute;
