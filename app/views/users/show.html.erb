@@ -10,7 +10,7 @@
           method: :delete,
           data: { confirm: 'Are you sure?' } %>
 
-          <%= link_to 'log out', logout_path(session)%>
+  <%= link_to 'log out', logout_path(session), method: :delete, data: { confirm: 'Are you sure?' } %>
 </h1>
 
 <!-- ask for help on logout -->
