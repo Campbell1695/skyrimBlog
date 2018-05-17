@@ -1,16 +1,11 @@
-<h1>
+<div id="profile_div">
+  <img id="main_pic" src="/assets/profile.jpg" style= "width:1125px; height:525px;">
+  <h1 id="uname_h1"><%= @user.name %></h1>
 
-  <%= @user.name %>
+  <h1 id="edit_h1"><%= link_to 'Edit Profile', edit_user_path(@user) %></h1>
 
-  <%= link_to 'My Blog', controller: 'articles' %>
-
-  <%= link_to 'Edit', edit_user_path(@user) %>
-
-  <%= link_to 'Delete', user_path(@user),
+  <h1 id="delete_h1"><%= link_to 'Delete Profile', user_path(@user),
           method: :delete,
-          data: { confirm: 'Are you sure?' } %>
-
-  <%= link_to 'log out', logout_path(session), method: :delete, data: { confirm: 'Are you sure?' } %>
-</h1>
-
-<!-- ask for help on logout -->
+          data: { confirm: 'Are you sure?' } %></h1>
+  <h1 id="logout_h1"><%= link_to 'log out', logout_path(session), method: :delete, data: { confirm: 'Are you sure?' } %></h1>
+</div>

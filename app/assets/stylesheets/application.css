@@ -20,6 +20,7 @@
 div
 {
   position: absolute;
+  left: 112.5px;
 }
 #dbText_div
 {
@@ -66,6 +67,11 @@ div
   top: 300px;
   text-align: center;
   font-size: 20px;
+  text-shadow: 1px 1px 1px #131618;
+  color: #98BED0;
+}
+#profile_div
+{
   text-shadow: 1px 1px 1px #131618;
   color: #98BED0;
 }
@@ -119,12 +125,24 @@ div
 /*End Divs*/
 
 /*Start Headers*/
+#edit_h1
+{
+  position: absolute;
+  top: 215px;
+  left: 550px;
+}
 #email_h3
 {
   position: absolute;
   top: 50px;
   left: 703px;
   font-size: 30px;
+}
+#delete_h1
+{
+  position: absolute;
+  top: 215px;
+  left: 650px;
 }
 #in_h1
 {
@@ -135,11 +153,17 @@ div
   text-shadow: 2px 2px 0px #131618;
   font-size: 42px;
 }
+#logout_h1
+{
+  position: absolute;
+  top: 300px;
+  left: 550px;
+}
 #main_h1
 {
   position: absolute;
   top: 10px;
-  left: 50px;
+  left: 162.5px;
   font-size: 30px;
 }
 #new_h1
@@ -158,6 +182,13 @@ div
   left: 459.71px;
   top: 150px;
 }
+#uname_h1
+{
+  top: 100px;
+  position: absolute;
+  left: 550px;
+  font-size: 40px;
+}
 #up_h1
 {
   position: absolute;
@@ -172,23 +203,23 @@ div
 /*Start Texts*/
 #blog_p
 {
-  left: 968px;
+  left: 1080.5px;
 }
 #contact_p
 {
-  left: 1026px;
+  left: 1138.5px;
 }
 #home_p
 {
-  left: 792px;
+  left: 904.5px;
 }
 #mods_p
 {
-  left: 853px;
+  left: 965.5px;
 }
 #shop_p
 {
-  left: 913px;
+  left: 1025.5px;
 }
 #login_p
 {
@@ -285,7 +316,7 @@ div
   width: 165px;
   position: absolute;
   top: 30px;
-  left: 50px;
+  left: 162.5px;
 }
 /*End Style*/
 
