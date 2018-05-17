@@ -1,29 +1,31 @@
-<h1>Listing articles</h1>
+<img id="article_pic" src="/assets/articles.jpg" style= "width:1125px; height:525px;">
 
-<!--put an if statement her-->
-<%= link_to 'New article', new_article_path %>
+<h1 id="article_h1">Current Shouts</h1>
 
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Text</th>
-    <th colspan="3"></th>
-  </tr>
+<h2 id=article_h2><%= link_to 'New shout', new_article_path %></h2>
 
-  <% @articles.each do |article| %>
+<div id="article_div">
+  <table>
     <tr>
-      <td><%= article.title %></td>
-      <td><%= article.text %></td>
-      <td><%= time_ago_in_words(article.created_at) %> ago</td>
-      <td><%= link_to 'Show', article_path(article) %></td>
-      <% if current_user.id == article.user_id %>
-        <td><%= link_to 'Edit', edit_article_path(article) %></td>
-        <td><%= link_to 'Destroy', article_path(article),
+      <th>Title</th>
+      <th>Text</th>
+      <th colspan="3"></th>
+    </tr>
+
+    <% @articles.each do |article| %>
+      <tr>
+        <td><%= article.title %></td>
+        <td><%= article.text %></td>
+        <td><%= time_ago_in_words(article.created_at) %> ago</td>
+        <td><%= link_to 'Show', article_path(article) %></td>
+        <% if current_user.id == article.user_id %>
+          <td><%= link_to 'Edit', edit_article_path(article) %></td>
+          <td><%= link_to 'Destroy', article_path(article),
                 method: :delete,
                 data: { confirm: 'Are you sure?' } %></td>
+        <% end %>
+      </tr>
     <% end %>
-    </tr>
-  <% end %>
-
+  </table>
   <%= link_to 'Back', user_path(current_user)%>
-</table>
+</div>

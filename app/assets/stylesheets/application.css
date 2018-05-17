@@ -22,6 +22,31 @@ div
   position: absolute;
   left: 112.5px;
 }
+#article_div
+{
+  background-color: #E7F1F7;
+  opacity: .65;
+  width: 565.5px;
+  left: 392.25px;
+  top: 175px;
+  text-align: center;
+}
+#articlesShow_div
+{
+  text-align: center;
+  left: 457.135px;
+  top: 100px;
+  text-shadow: 1px 1px 1px #131618;
+  color: #E7F1F7;
+}
+#editArticle_div
+{
+  text-align: center;
+  left: 588px;
+  top: 100px;
+  text-shadow: 1px 1px 1px #131618;
+  color: #E7F1F7;
+}
 #dbText_div
 {
   background-color: #E7F1F7;
@@ -135,6 +160,24 @@ div
 /*End Divs*/
 
 /*Start Headers*/
+#article_h1
+{
+  position: absolute;
+  top: 100px;
+  left: 392px;
+}
+#article_h2
+{
+  position: absolute;
+  top: 108px;
+  left: 625px;
+}
+#back_h3
+{
+  position: absolute;
+  top: 175px;
+  left: 600px;
+}
 #edit_h1
 {
   position: absolute;
