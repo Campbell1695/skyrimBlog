@@ -1,7 +1,7 @@
 <!--Start Main div-->
 <div id="main_div">
   <img id="main_pic" src="/assets/mainPic.jpg" style= "width:1125px; height:525px;">
-  
+
 
   <h1 id="skyrim_h1">SKYRIM</h1>
   <p id="connect_button"><%= link_to "CONNECT", signup_path, class: "btn btn-lg btn-primary" %></p>
@@ -39,16 +39,266 @@
     <button id="orsmr_button" onclick="race.orsimer()">orsimer</button>
     <button id="rdgrd_button" onclick="race.redguard()">redguard</button>
   </div>
-  <img id="altmer" class="races" src="/assets/altmer.png" style= "width:275px; height:325px;">
-  <img id="argonian" class="races" src="/assets/argonian.png" style= "width:275px; height:325px;">
-  <img id="bosmer" class="races" src="/assets/Bosmer.png" style= "width:275px; height:325px;">
-  <img id="breton" class="races" src="/assets/breton.png" style= "width:275px; height:325px;">
-  <img id="dunmer" class="races" src="/assets/dunmer.png" style= "width:275px; height:325px;">
-  <img id="imperial" class="races" src="/assets/imperial.png" style= "width:275px; height:325px;">
-  <img id="khajiit" class="races" src="/assets/khajiit.png" style= "width:275px; height:325px;">
-  <img id="nord" class="races" src="/assets/nord.png" style= "width:275px; height:325px;">
-  <img id="orsimer" class="races" src="/assets/orsimer.png" style= "width:275px; height:325px;">
-  <img id="redguard" class="races" src="/assets/redguard.png" style= "width:275px; height:325px;">
+
+  <div id="altmer">
+    <div class="races_div">
+      <img class="race_pic" src="/assets/altmer.png" style= "width:150px; height:125px;">
+      <h3 class="skill_h3">Skill Bonuses</h3>
+      <ul class="skill_ul">
+        <li>+10 Illusion</li>
+        <li>+5 Alteration</li>
+        <li>+5 Conjuration</li>
+        <li>+5 Destruction</li>
+        <li>+5 Enchanting</li>
+        <li>+5 Restoraion</li>
+      </ul>
+
+      <h3 class="spell_h3">Starting spells</h3>
+      <ul class="spell_ul">
+        <li>Fury</li>
+      </ul>
+
+      <h3 class="special_h3">Special abilities</h3>
+      <ul class="special_ul">
+        <li>Highborn: Regenerate magicka faster for 60 seconds, once a day.</li>
+        <li>Fortify Magicka: Passive increase in magicka by 50 points.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="argonian">
+    <div class="races_div">
+      <img class="race_pic" src="/assets/argonian.png" style= "width:150px; height:125px;">
+      <h3 class="skill_h3">Skill Bonuses</h3>
+      <ul class="skill_ul">
+        <li>+10 Lockpicking</li>
+        <li>+5 Light Armor</li>
+        <li>+5 Alteration</li>
+        <li>+5 Pickpocket</li>
+        <li>+5 Restoraion</li>
+        <li>+5 Sneak</li>
+      </ul>
+
+      <h3 class="spell_h3">Starting spells</h3>
+      <ul class="spell_ul">
+        <li>None</li>
+      </ul>
+
+      <h3 class="special_h3">Special abilities</h3>
+      <ul class="special_ul">
+        <li> Histskin: Invoke the power of the Hist to recover health ten times faster for 60 seconds. Can only be used once per day.</li>
+        <li>Resist Disease: Your Argonian blood is 50% resistant to disease.</li>
+        <li>Waterbreathing: Your Argonian Lungs can breathe underwater.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="bosmer">
+    <div class="races_div">
+      <img class="race_pic" src="/assets/Bosmer.png" style= "width:150px; height:125px;">
+      <h3 class="skill_h3">Skill Bonuses</h3>
+      <ul class="skill_ul">
+        <li>+10 Archery</li>
+        <li>+5 Alchemy</li>
+        <li>+5 Light Armor</li>
+        <li>+5 Lockpicking</li>
+        <li>+5 Pickpocket</li>
+        <li>+5 Sneak</li>
+      </ul>
+
+      <h3 class="spell_h3">Starting spells</h3>
+      <ul class="spell_ul">
+        <li>None</li>
+      </ul>
+
+      <h3 class="special_h3">Special abilities</h3>
+      <ul class="special_ul">
+        <li>Command Animal: Make an animal an ally for 60 seconds.</li>
+        <li>Resist Disease and Poison: Your Bosmer blood gives you 50% resistance to poison and disease</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="breton">
+    <div class="races_div">
+      <img class="race_pic" src="/assets/breton.png" style= "width:150px; height:125px;">
+      <h3 class="skill_h3">Skill Bonuses</h3>
+      <ul class="skill_ul">
+        <li>+10 Conjuration</li>
+        <li>+5 Alchemy</li>
+        <li>+5 Alteration</li>
+        <li>+5 Illusion</li>
+        <li>+5 Restoraion</li>
+        <li>+5 Speech</li>
+      </ul>
+
+      <h3 class="spell_h3">Starting spells</h3>
+      <ul class="spell_ul">
+        <li>Conjure Familiar</li>
+      </ul>
+
+      <h3 class="special_h3">Special abilities</h3>
+      <ul class="special_ul">
+        <li>Dragonskin : Absorb 50% of magicka from hostile spells for 60 seconds.</li>
+        <li>Magic Resistance : Breton blood grants a 25% resistance to magic.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="dunmer">
+    <div class="races_div">
+      <img class="race_pic" src="/assets/dunmer.png" style= "width:150px; height:125px;">
+      <h3 class="skill_h3">Skill Bonuses</h3>
+      <ul class="skill_ul">
+        <li>+10 Destruction</li>
+        <li>+5 Alchemy</li>
+        <li>+5 Alteration</li>
+        <li>+5 Illusion</li>
+        <li>+5 Light Armor</li>
+        <li>+5 Sneak</li>
+      </ul>
+
+      <h3 class="spell_h3">Starting spells</h3>
+      <ul class="spell_ul">
+        <li>Sparks</li>
+      </ul>
+
+      <h3 class="special_h3">Special abilities</h3>
+      <ul class="special_ul">
+        <li>Ancestor's Wrath: Once per day for 60 seconds, opponents that get too close take 8 points per second of fire damage.</li>
+        <li>Resist Fire: Your Dunmer blood gives you 50% resistance to fire.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="imperial">
+    <div class="races_div">
+      <img class="race_pic" src="/assets/imperial.png" style= "width:150px; height:125px;">
+      <h3 class="skill_h3">Skill Bonuses</h3>
+      <ul class="skill_ul">
+        <li>+10 Restoraion</li>
+        <li>+5 Block</li>
+        <li>+5 Destruction</li>
+        <li>+5 Enchanting</li>
+        <li>+5 Heavy Armor</li>
+        <li>+5 One-Handed</li>
+      </ul>
+
+      <h3 class="spell_h3">Starting spells</h3>
+      <ul class="spell_ul">
+        <li>None</li>
+      </ul>
+
+      <h3 class="special_h3">Special abilities</h3>
+      <ul class="special_ul">
+        <li>Voice of the Emperor: calms nearby humanoids for 60 seconds</li>
+        <li>Imperial Luck: anywhere gold might be found, Imperials always seem to find a few more.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="khajiit">
+    <div class="races_div">
+      <img class="race_pic" src="/assets/khajiit.png" style= "width:150px; height:125px;">
+      <h3 class="skill_h3">Skill Bonuses</h3>
+      <ul class="skill_ul">
+        <li>+10 Sneak</li>
+        <li>+5 Alchemy</li>
+        <li>+5 Archery</li>
+        <li>+5 Lockpicking</li>
+        <li>+5 One-Handed</li>
+        <li>+5 Pickpocket</li>
+      </ul>
+
+      <h3 class="spell_h3">Starting spells</h3>
+      <ul class="spell_ul">
+        <li>None</li>
+      </ul>
+
+      <h3 class="special_h3">Special abilities</h3>
+      <ul class="special_ul">
+        <li>Night Eye – See in the dark for 60 seconds for an unlimited number of times per day.</li>
+        <li>Claws – Unarmed attacks do 15 points of damage.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="nord">
+    <div class="races_div">
+      <img class="race_pic" src="/assets/nord.png" style= "width:150px; height:125px;">
+      <h3 class="skill_h3">Skill Bonuses</h3>
+      <ul class="skill_ul">
+        <li>+10 Two-Handed</li>
+        <li>+5 Block</li>
+        <li>+5 Light Armor</li>
+        <li>+5 One-Handed</li>
+        <li>+5 Smithing</li>
+        <li>+5 Speech</li>
+      </ul>
+
+      <h3 class="spell_h3">Starting spells</h3>
+      <ul class="spell_ul">
+        <li>None</li>
+      </ul>
+
+      <h3 class="special_h3">Special abilities</h3>
+      <ul class="special_ul">
+        <li>Battle Cry: Target flees for 30 seconds.</li>
+        <li>Resist Frost: Your Nord blood gives you 50% resistance to frost.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="orsimer">
+    <div class="races_div">
+      <img class="race_pic" src="/assets/orsimer.png" style= "width:150px; height:125px;">
+      <h3 class="skill_h3">Skill Bonuses</h3>
+      <ul class="skill_ul">
+        <li>+10 Heavy Armor</li>
+        <li>+5 Block</li>
+        <li>+5 Enchanting</li>
+        <li>+5 One-Handed</li>
+        <li>+5 Smithing</li>
+        <li>+5 Two-Handed</li>
+      </ul>
+
+      <h3 class="spell_h3">Starting spells</h3>
+      <ul class="spell_ul">
+        <li>None</li>
+      </ul>
+
+      <h3 class="special_h3">Special abilities</h3>
+      <ul class="special_ul">
+        <li>Berserker Rage - Take half damage and do double damage for 60 seconds. </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="redguard">
+    <div class="races_div">
+      <img class="race_pic" src="/assets/redguard.png" style= "width:150px; height:125px;">
+      <h3 class="skill_h3">Skill Bonuses</h3>
+      <ul class="skill_ul">
+        <li>+10 One-Handed</li>
+        <li>+5 Alteration</li>
+        <li>+5 Archery</li>
+        <li>+5 Block</li>
+        <li>+5 Destruction</li>
+        <li>+5 Smithing</li>
+      </ul>
+
+      <h3 class="spell_h3">Starting spells</h3>
+      <ul class="spell_ul">
+        <li>None</li>
+      </ul>
+
+      <h3 class="special_h3">Special abilities</h3>
+      <ul class="special_ul">
+        <li>Adrenaline Rush: Stamina regenerates 10x faster for 60 seconds.</li>
+        <li>Resist Poison: Your Redguard blood gives you 50% resistance to poison.</li>
+      </ul>
+    </div>
+  </div>
 </div>
 
 <!--Start Subscribe div-->
