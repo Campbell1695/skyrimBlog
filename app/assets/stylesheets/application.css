@@ -170,6 +170,10 @@ div
 /*End Divs*/
 
 /*Start Headers*/
+.secodary_words
+{
+  position: relative;
+}
 .skill_h3
 {
   position: absolute;
@@ -340,6 +344,17 @@ div
 {
   position: absolute;
   opacity: .75px;
+}
+#secondary_pic
+{
+  position: absolute;
+  opacity: .5;
+}
+#skrm_pic
+{
+  position: absolute;
+  top: -12.5px;
+  left: 375px;
 }
 #upIn_pic
 {
